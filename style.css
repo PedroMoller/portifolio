@@ -1,0 +1,27 @@
+h1{
+    color:aquamarine;
+}
+
+body{
+    border: solid;
+    background-color: rgba(17, 31, 106, 0.752);
+}
+
+.MenuDoTopo{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.linkss{
+    display: flex;
+    justify-content: flex-end;
+}
