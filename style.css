@@ -1,14 +1,18 @@
 h1{
-    color:aquamarine;
+    color:#7fffd4;
+    text-decoration-line: overline underline;
+}
+h3{
+    text-decoration-line: underline;
 }
 
 body{
-    border: solid;
-    background-color: rgba(17, 31, 106, 0.752);
+    border-style: inset;
+    background-color: #111f6ab2;
 }
 
 .MenuDoTopo{
-    background-color: cornflowerblue;
+    background-color: #6495ed;
     display: flex;
     justify-content: space-between;
 }
@@ -24,4 +28,9 @@ body{
 .linkss{
     display: flex;
     justify-content: flex-end;
+}
+.projeto{
+    border-style: solid;
+    margin: 50;
+    background-color: #add8e6;
 }
