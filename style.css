@@ -10,7 +10,12 @@ body{
     border-style: inset;
     background-color: #111f6ab2;
 }
-
+a:link{
+    color:red;
+}
+a:visited{
+    color:red;
+}
 .MenuDoTopo{
     background-color: #6495ed;
     display: flex;
@@ -18,6 +23,7 @@ body{
 }
 .links{
     display: flex;
+    padding:20px;
     flex-direction: column;
 }
 .projetos{
@@ -33,4 +39,19 @@ body{
     border-style: solid;
     margin: 50;
     background-color: #add8e6;
+    position: relative;
+}
+.projeto h3{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    text-align: center;
+}
+.projeto:hover h3{
+    opacity: 1;
+}
+.projeto:hover img{
+    opacity: 0.33;
 }
